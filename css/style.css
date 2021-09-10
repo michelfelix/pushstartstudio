@@ -124,6 +124,10 @@ button:focus {
 
 /* CSS MODAL */
 
+#feedback-modal {
+    background-color: #ffffff;
+}
+
 .modal-header .close {
     margin: 0;
     padding: 0;
@@ -143,6 +147,7 @@ button:focus {
     justify-content: space-between;
     align-items: center;
     border-radius: 0;
+    border: none;
 }
 
 .modal-header button i,
@@ -159,6 +164,16 @@ button:focus {
     opacity: 1;
 }
 
+.modal-body {
+    padding: 0;
+}
+
+.modal-content,
+.modal-header,
+.modal-body {
+    border: none;
+}
+
 .modal-body,
 .feedback-form {
     display: flex;
@@ -166,8 +181,28 @@ button:focus {
     align-items: center;
 }
 
+.chat-content {
+    display: flex;
+    background-color: #5EB891;
+    padding: 15px 0;
+}
+
+.chat-image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-info p {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+}
+
 .feedback-form {
     width: 80%;
+    padding: 42px 0;
 }
 
 .feedback-form input,
